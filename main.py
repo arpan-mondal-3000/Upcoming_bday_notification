@@ -33,6 +33,8 @@ def upcoming_bdays():
     return upcoming_bdays
 
 
+print(upcoming_bdays())
+
 if len(upcoming_bdays()) == 0:
     pass
 else:
