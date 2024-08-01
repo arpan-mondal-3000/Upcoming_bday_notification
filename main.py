@@ -35,7 +35,6 @@ def upcoming_bdays():
             query = f"SELECT id,name,dob FROM userdata WHERE dob LIKE '01-{current_month}-%'"
         else:
             query = f"SELECT id,name,dob FROM userdata WHERE dob LIKE '01-01-%'"
-
     cursor.execute(query)
     rows = cursor.fetchall()
 
