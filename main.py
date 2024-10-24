@@ -27,7 +27,7 @@ rows = cursor.fetchall()
 cursor.close()
 connection.close()
 
-# print(rows)
+print(rows)
 
 # showing the windows notification
 if len(rows) == 0:
